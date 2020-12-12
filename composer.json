@@ -1,0 +1,23 @@
+{
+    "name": "zehnder/curl",
+    "description": "Zehnder Curl project",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thomas-RC",
+            "email": "t-rossi@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "ext-curl": "*",
+        "ext-json": "*",
+        "twig/twig": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zehnder\\Services\\": "class"
+        }
+    }
+}
